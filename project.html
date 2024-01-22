@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+            p.solid{
+                border-style: solid;
+            }
+            img{
+                border-radius: 70%;
+                text-align: center;
+            }
+            th, tr {
+                border: 1px solid black;
+                border-radius: 10px;
+                text-align: left;
+                padding: 15px 32px ;
+            }
+            .button {
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: right;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            .button1{background-color: blue;}
+            .button2{background-color: blue;}
+            .button3{background-color: blue;}
+            .button4{background-color: blue;}
+            .button5{background-color: blue;}
+            .button6{background-color: blue;}
+
+            .pagination {
+              display: inline-block;
+            }
+
+            .pagination a {
+                color: black;
+                float: left;
+                padding: 8px 16px;
+                text-decoration: none;
+                text-align: center;
+                border:1px solid black;
+                transition: background-color .3s;
+            }
+            .pagination a.active {
+                background-color: #4CAF50;
+                color: white;
+                border: 1px solid #4CAF50;
+            }
+            .pagination a:hover:not(.active) {background-color: #ddd;}
+            
+        </style>
+    </head>
+    <body>
+       <img src="1.png" alt="" style="width:200px">JOHN DOE<br><text-align=center>Bio goes here</text-align><div>
+        <img src="3.png" alt="" style="width: 25px;">Oriando<br>Twitter : https://twitter.com/john_doe
+       </div>
+       <div>
+       <a href ="https://github.com/john_doe"><img src="2.jpg"  style="width: 25px; height: 20px;">https://github.com/john_doe</a></div><br><br>
+       <table style="width: 100%;">
+        <tr>
+            <th><h3 style="color: blue;">Heroes</h3>Heroes description goes here<br><button class="button button1">Javascript</button><button class ="button button2">angular</button><button class ="button button3">angularjs</button><button class ="button button4">Angular 2+</button></th>
+            <th><h3 style="color: blue;">Heroes</h3>Heroes description goes here<br><button class="button button1">Javascript</button><button class="button button2">angular</button><button class ="button button3">angularjs</button></th>
+        </tr>
+        <tr>
+            <th><h3 style="color: blue;">Heroes</h3>Heroes description goes here<br><button class="button button1">Javascript</button><button class="button button2">angular</button><button class ="button button3">angularjs</button></th>
+            <th><h3 style="color: blue;">Heroes</h3>Heroes description goes here<br><button class="button button1">Javascript</button><button class="button button2">angular</button><button class ="button button3">angularjs</button><button class ="button button4">Angular 2+</button></th>
+        </tr>
+        <tr>
+            <th><h3 style="color: blue;">Heroes</h3>Heroes description goes here<br><button class="button button1">Javascript</button><button class="button button2">angular</button><button class ="button button3">angularjs</button><button class ="button button4">Angular 2+</button></th>
+            <th><h3 style="color: blue;">Heroes</h3>Heroes description goes here<br><button class="button button1">Javascript</button><button class="button button2">angular</button><button class ="button button3">angularjs</button></th>
+        </tr>
+       </table>
+       </div><br><br>
+       <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">8</a>
+        <a href="#">9</a>
+        <a href="#">&raquo;</a>
+      </div><br>
+      <button class="button button5">Older</button>
+      <button class="button button6">Newer</button>
+    </body>
+
+</html>
